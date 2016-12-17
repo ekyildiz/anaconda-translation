@@ -15,6 +15,7 @@
 # Onur Gungor <onurgu@boun.edu.tr>, 2004, 2006
 # Akın Ömeroğlu <akinomeroglu@gmail.com>, 2015. #zanata
 # Berat Emre Nebioğlu <beratn@gmail.com>, 2016
+
 msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 24.13.5\n"
@@ -36,8 +37,9 @@ msgstr ""
 msgid ""
 "%(product_name)s requires %(needed_ram)s MB of memory to install, but you "
 "only have %(total_ram)s MB on this machine.\n"
-msgstr "%(product_name)'ın' yüklenenebilmesi için %(needed_ram) gereklidir. Fakat bu makina
-sadece %(total_ram) sahiptir."
+msgstr ""
+"%(product_name)s'un yüklenenebilmesi için %(needed_ram)s MB bellek gereklidir, Fakat "
+"bu makina sadece %(total_ram)s MB belleğe sahiptir."
 
 #: anaconda.py:336
 #, python-format
@@ -45,18 +47,21 @@ msgid ""
 "The %(product_name)s graphical installer requires %(needed_ram)s MB of "
 "memory, but you only have %(total_ram)s MB\n"
 "."
-msgstr "%(product_name)'ın grafik yükleyicisi %(needed_ram)s gerektirmektedir.
-%(total_ram) sahipsin."
+msgstr ""
+"%(product_name)s'un grafik yükleyicisi %(needed_ram)s MB bellek gerektirmektedir, Fakat "
+"%(total_ram)s MB belleğe sahipsin."
 
 #: anaconda.py:339
 msgid ""
 "\n"
 "Press <Enter> to reboot your system.\n"
-msgstr "Makinayı yeniden başlatmak için <Enter>'a basın"
+msgstr ""
+"\n"
+"Sistemi yeniden başlatmak için <Enter>'a basın.\n"
 
 #: anaconda.py:341
 msgid "Not enough RAM"
-msgstr "RAM yetersiz"
+msgstr "Yetersiz BELLEK"
 
 #: anaconda.py:342
 msgid ""
@@ -78,49 +83,51 @@ msgstr " Metin kipi başlatılıyor."
 
 #: anaconda.py:381
 msgid "The installation cannot continue and the system will be rebooted"
-msgstr "Yükleme devam edemiyor. Bu yüzden sistem yeniden başlatılacaktır."
+msgstr "Kurulum devam edemiyor. Bu yüzden sistem yeniden başlatılacak."
 
 #: anaconda.py:382 pyanaconda/ui/tui/simpleline/base.py:571
 msgid "Press ENTER to continue"
-msgstr "Devam etmek için ENTER'a basın."
+msgstr "Devam etmek için ENTER'a basın"
 
 #: anaconda.py:505
 msgid "DISPLAY variable not set. Starting text mode."
-msgstr "DISPLAY(Görsellik) değişkeni ayarlanmamış. Metin kipi başlatılıyor."
+msgstr "DISPLAY değişkeni ayarlanmamış. Metin kipi başlatılıyor."
 
 #: anaconda.py:513
 msgid "Graphical installation is not available. Starting text mode."
-msgstr "Grafik kipinde kurulum mevcut değil. Metin kipinde modu başlatılıyor."
+msgstr "Grafik kipinde kurulum mevcut değil. Metin kipinde kuruluma geçiliyor."
 
 #: anaconda.py:521
 msgid ""
 "Text mode provides a limited set of installation options. It does not offer "
 "custom partitioning for full control over the disk layout. Would you like to "
 "use VNC mode instead?"
-msgstr "Metin kipi sınırlı miktarda yükleme seçeneği sunmaktadır.Diski
-bölümlendirme konusunda her hangibir, kişisel ayar seçeneği sunmamaktadır.
-sunmamaktadır. "
+msgstr ""
+"Metin kipi sınırlı miktarda yükleme seçeneği sunmaktadır. Diski bölümlendirme "
+"konusunda herhangi bir, kişisel ayar seçeneği sunmamaktadır. Disk bölümleme "
+"işleminde tüm seçenekleri kullanabilmek için VNC modunu kullanın. "
 
 #: anaconda.py:617
 #, python-format
 msgid "Please ssh install@%s to begin the install."
-msgstr "Yüklemeye başlamak için ssh install@%s "
+msgstr "Yüklemeyi başlatmak için ssh install@%s "
 
 #: anaconda.py:619
 msgid "Please ssh install@<host> to continue installation."
-msgstr "Yüklemeye devam etmek için ssh install@<host>"
+msgstr "Yüklemeye devam etmek için ssh install@<host> " 
 
 #: anaconda.py:807
 msgid "Unable to create PID file"
-msgstr "PID dosyası yaratılamıyor."
+msgstr "PID dosyası oluşturulamıyor"
 
 #: anaconda.py:808
 #, python-format
 msgid ""
 "Anaconda is unable to create %s because the file already exists. Anaconda is "
 "already running, or a previous instance of anaconda has crashed."
-msgstr "Anaconda %s dosyasını yaratamıyor. %s isimli dosya sistemde mevcut. Anaconda
-hali hazırda çalışmakta, ve bir önceki süreç durmuştur. "
+msgstr ""
+"Anaconda dosya zaten var olduğu için %s isimli dosyayı oluşturamadı. Anaconda "
+"zaten çalışıyor veya anaconda'nın bir önceki süreci durdu. "
 
 #: pyanaconda/addons.py:87
 #, python-format
@@ -136,17 +143,17 @@ msgstr "/boot dosya sistemi"
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following raid "
 "levels: %(raid_level)s."
-msgstr "'%(desc)s' içeren RAID ayarları, aşağıda belirtilmiş,
-%(raid_level)'lerden birine sahip olmalı. "
-"Levels: %(raid_level)s."
+msgstr ""
+"'%(desc)s' içeren RAID seviyeleri, aşağıdaki RAID seviyelerinden biri olmalıdır. "
+"Seviyeler: %(raid_level)s."
 
 #: pyanaconda/bootloader.py:391
 #, python-format
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following metadata "
 "versions: %(metadata_versions)s."
-msgstr "'%(desc)s' içeren RAID ayarları , aşağıda belirtilmiş
-%(metadata_level)'lardan birine sahip olmalı. "
+msgstr ""
+"'%(desc)s' içeren RAID seviyeleri , aşağıdaki versiyonlardan biri olmalı. "
 "Versiyonlar: %(metadata_versions)s."
 
 #: pyanaconda/bootloader.py:399
@@ -154,49 +161,49 @@ msgstr "'%(desc)s' içeren RAID ayarları , aşağıda belirtilmiş
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following device "
 "types: %(types)s."
-msgstr "'%(desc)s' içeren RAID ayarları , Aşağıda belirtilmiş,
-device'lerden birine sahip olmalı. "
+msgstr ""
+"'%(desc)s' içeren RAID setleri aşağıdaki aygıtlardan biri olmalı. "
 "Türler: %(types)s."
 
 #: pyanaconda/bootloader.py:415
 #, python-format
 msgid "%(name)s must have one of the following disklabel types: %(types)s."
-msgstr "%(name) "disk etiket türlerinden birine sahip olmalıdır. Tür: %(types)
+msgstr "%(name)s disk etiket türlerinden birine sahip olmalı. Türler: %(types)s."
 
 #: pyanaconda/bootloader.py:427
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s."
-msgstr "%(desc)s bu türden her hangibir şey olamaz. %(type)"
+msgstr "%(desc)s türü %(type)s olamaz."
 
 #: pyanaconda/bootloader.py:433
 #, python-format
 msgid "%(desc)s must be mounted on one of %(mountpoints)s."
-msgstr "%(desc)s, %(mountpoints)s'in bir tanesinde gösterilmelidir.' "
+msgstr "%(desc)s %(mountpoints)s bağlama noktalarından birine bağlanmalıdır."
 
 #: pyanaconda/bootloader.py:445
 #, python-format
 msgid "%(desc)s must be between %(min)d and %(max)d MB in size"
-msgstr ""%(desc)s'ın boyutu %(min)d ve %(max)d nin arasında olmalıdır'"
+msgstr "%(desc)s boyutu %(min)d ve %(max)d arasında olmalı"
 
 #: pyanaconda/bootloader.py:451
 #, python-format
 msgid "%(desc)s must not be smaller than %(min)dMB."
-msgstr "%(desc)s, %(min)dMB den küçük olmalıdır. "
+msgstr "%(desc)s %(max)dMB dan büyük olmalı."
 
 #: pyanaconda/bootloader.py:460
 #, python-format
 msgid "%(desc)s must not be larger than %(max)dMB."
-msgstr "%(desc)s, %(max)dMB den geniş olmalıdır."
+msgstr "%(desc)s %(max)dMB dan büyük olamaz."
 
 #: pyanaconda/bootloader.py:478
 #, python-format
 msgid "%(desc)s must be within the first %(max_end)s of the disk."
-msgstr "%(desc)s, diskin ilk %(max_end)s sinin içinde olmalıdır. "
+msgstr "%(desc)s diskin ilk %(max_end)s'ının içinde olmalı. "
 
 #: pyanaconda/bootloader.py:488
 #, python-format
 msgid "%s must be on a primary partition."
-msgstr "%s birincil bölüm üzerinde olmak zorundadır."
+msgstr "%s birincil bölüm üzerinde olmak zorunda."
 
 #: pyanaconda/bootloader.py:624 pyanaconda/bootloader.py:724
 #, python-format
@@ -206,12 +213,12 @@ msgstr "%s şifrelenmiş bir blok aygıtı üzerinde olamaz."
 #: pyanaconda/bootloader.py:679
 #, python-format
 msgid "%s cannot be on an iSCSI disk"
-msgstr "%s, iSCSI diskinin üzerinde olamaz. "
+msgstr "%s iSCSI diskin üzerinde olamaz."
 
 #: pyanaconda/bootloader.py:683
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s"
-msgstr "%(desc)s, %(type)s türünden olamaz."
+msgstr "%(desc)s %(type)s türünden olamaz."
 
 #: pyanaconda/bootloader.py:1357
 #, python-format
@@ -219,9 +226,10 @@ msgid ""
 "boot loader stage2 device %(stage2dev)s is on a multi-disk array, but boot "
 "loader stage1 device %(stage1dev)s is not. A drive failure in %(stage2dev)s "
 "could render the system unbootable."
-msgstr " boot yülmee bölüm2, %(stage2dev)s çoklu disk dizgisinin üzerinde fakat
-yükleyici bölüm1, %(stage1dev)s değil. %(stage2dev)s deki sürücü hatası sistemi
-yüklenemez yaptı. "
+msgstr ""
+"boot yükleyicisi stage2 aygıtı çok diskli bir %(stage2dev)s dizisinde, Fakat "
+"boot yükleyicisi stage1 aygıtı %(stage1dev)s değil. %(stage2dev)s diskindeki "
+"hata sistemi önyüklenemez hale getirebilir."
 
 #: pyanaconda/bootloader.py:1363
 #, python-format
@@ -230,15 +238,18 @@ msgid ""
 "loader stage1 device %(stage1dev)s is not part of this array. The stage1 "
 "boot loader will only be installed to a single drive."
 msgstr ""
+"boot yükleyicisi stage2 aygıtı çok diskli bir %(stage2dev)s dizisinde, Fakat "
+"boot yükleyicisi stage1 aygıtı %(stage1dev)s dizisinin bir parçası değil. "
+"Stage1 boot yükleyicisi yanlızca bir diske kurulabilir."
 
 #: pyanaconda/bootloader.py:1658
 #, python-format
 msgid ""
 "%(deviceName)s may not have enough space for grub2 to embed core.img when "
 "using the %(fsType)s file system on %(deviceType)s"
-msgstr "%(deviceName)s grub2 yi core.img içine koyarken yeterli alana sahip değil.
-(Bu cümleyi tam anlayamadım. İngilizce çeviride sorun olursa yani türkçeden ingilizce
-ondada yardımcı olabilirim.) "
+msgstr ""
+"%(deviceName)s grub2'nin core.img dosyasını gömmek için yeterli alana sahip değil."
+"%(deviceType)s üzerinde %(fsType)s dosya sistemi kullanıyor"
 
 #: pyanaconda/constants.py:73
 msgid "Start VNC"
@@ -246,7 +257,7 @@ msgstr "VNC'yi başlat"
 
 #: pyanaconda/constants.py:74
 msgid "Use text mode"
-msgstr "Metin kipini kullan"
+msgstr "Metin modunu kullan"
 
 #: pyanaconda/constants.py:138
 msgid "The password is empty."
@@ -283,7 +294,7 @@ msgstr "Zayıf bir parola girdiniz: %s. Yine de kullanmak için Tamam'a basın."
 msgid ""
 "The password you have provided contains non-ASCII characters. You may not be "
 "able to switch between keyboard layouts to login. Press Done to continue."
-msgstr "Girdiğiniz şifre ASCII"
+msgstr ""
 "Girdiğiniz parolada ASCII olmayan karakterler bulunmakta. Giriş yapmak için "
 "farklı klavye örüntüleri arasında geçiş yapamayabilirsiniz. Devam etmek için "
 "Tamam'a basın."
@@ -315,15 +326,15 @@ msgstr "Güçlü"
 
 #: pyanaconda/constants.py:189
 msgid "Probing storage..."
-msgstr "Bellek inceleniyor..."
+msgstr "Depolama inceleniyor..."
 
 #: pyanaconda/constants.py:190
 msgid "Downloading package metadata..."
-msgstr "Paket metaverisi indiriliyor..."
+msgstr "Paket meta verisi indiriliyor..."
 
 #: pyanaconda/constants.py:191
 msgid "Downloading group metadata..."
-msgstr "Grup metaverisi indiriliyor..."
+msgstr "Grup meta verisi indiriliyor..."
 
 #: pyanaconda/constants.py:194
 msgid "Anaconda Installer"
@@ -337,11 +348,12 @@ msgid ""
 "%(errortxt)s\n"
 "\n"
 "The installation will now terminate."
-msgstr "Bölümünüzde aşağıdaki sorunlar oluşmuştur."
+msgstr ""
+"Bölümlemenizde aşağıdaki hatalar oluştu:"
 "\n"
 "%(errortxt)s\n"
 "\n"
-"Yükleme iptal edilecek.."
+"Yükleme iptal edilecek."
 
 #: pyanaconda/errors.py:115
 #, python-format
@@ -359,23 +371,25 @@ msgid ""
 "\n"
 "Once you have resolved the issue you can retry the storage scan. If you do "
 "not fix it you will have to exit the installer."
-msgstr "Varolan bellek ayarlarında bir problem var: %(errortxt)s\n"
+msgstr ""
+"Varolan depolama alanı yapılandırmanızla ilgili bir sorun var: %(errortxt)s\n"
 "\n"
-"Yükleme işlemine devam etmeden önce bu problemi çözmelisiniz. Ctrl+alt+f1 daha sonrasında
-ctrl+b tuşlarına basarak konsole ulaşabilirsiniz 2.\n."
-beraber basarak konsola ulaşabilirsiniz."
+"Kuruluma devam etmeden önce bu konuyu çözmeniz gerekir. Ctrl+alt+f1 ve "
+"ctrl+b tuşlarına birlikte basarak kullanabileceğiniz bir kabuk \n."
+"açabilirsiniz."
 "\n"
-"Problemi çözdüğünüz zaman, veri depolama kısmını tekrar tarayabilirsiniz."
-"Tarama yaparken eğer problem düzelmesse, yüklemeyi ipral etmek zoundasınız."
+"Sorunu çözdükten sonra, depolama alanı taramasını yeniden deneyebilirsiniz."
+"Sorunu düzeltmezseniz yükleyiciden çıkmanız gerekecektir."
+
 #: pyanaconda/errors.py:133
 msgctxt "GUI|Storage Detailed Error Dialog"
 msgid "_Exit Installer"
-msgstr "Yüklemeyiciden çık."
+msgstr "Kurulumdan Çık"
 
 #: pyanaconda/errors.py:134
 msgctxt "GUI|Storage Detailed Error Dialog"
 msgid "_Retry"
-msgstr "Tekrar dene"
+msgstr "Devam Et"
 
 #: pyanaconda/errors.py:141
 msgid ""
@@ -390,7 +404,10 @@ msgid ""
 "There is an entry in your /etc/fstab file that contains an invalid or "
 "incorrect file system type:\n"
 "\n"
-msgstr "/etc/fstab dosyasında geçersiz ya da doğru olmayan bir dosya sistemi girdisi var."
+msgstr ""
+"/etc/fstab dosyanızda geçersiz veya hatalı dosya sistemi türü "
+"içeren bir giriş var:\n"
+"\n"
 
 #: pyanaconda/errors.py:156
 #, python-format
@@ -401,8 +418,13 @@ msgid ""
 "It is recommended that you exit and abort your installation, but you can "
 "choose to continue if you think this is in error. Would you like to continue "
 "using this image?"
-msgstr "ISO %s, 2048'in katı olmayan bir büyüklüğe sahip. Devam etmeyi seçebilirsin.
-Devam etmek ister misin?"
+msgstr ""
+"ISO görüntüsü %s, 2048 baytın katları olmayan bir boyuta sahip. Bu "
+"bilgisayara aktarımın bozulduğu anlamına gelir. \n"
+"\n"
+"Kurulumdan çıkıp sonlandırmanız önerilir, ancak bunun yanlış olduğunu "
+"düşünüyorsanız devam etmeyi seçebilirsiniz. Devam etmek ister misiniz?"
+"Bu görüntüyü mü kullanıyorsunuz?"
 
 #: pyanaconda/errors.py:170
 msgid ""
@@ -410,13 +432,16 @@ msgid ""
 "on the hard drive.\n"
 "\n"
 "Should I try again to locate the image?"
-msgstr "Yükleyici, yükleme görüntüsünü bulmaya çalışıyor. Ama sürücünün içerisinde her
-hangibir yükleme görüntüsü(ISO) bulamadı."
+msgstr ""
+"Kurulum görüntüyü yüklemeye çalıştı ancak disk üzerinde "
+"bulamıyor.\n"
+"\n"
+"Görüntüyü bulmak için tekrar denemelimiyim?"
 
 #: pyanaconda/errors.py:180
 #, python-format
 msgid "An error occurred mounting the source device %s. Retry?"
-msgstr "Kaynak %s cihazını bağlarken bir hata oluştu. Tekrar deney?"
+msgstr "Kaynak %s cihazını bağlarken bir hata oluştu. Tekrar deneyin?"
 
 #: pyanaconda/errors.py:188
 #, python-format
@@ -432,8 +457,9 @@ msgstr ""
 msgid ""
 "The group '%s' is required for this installation. This group does not exist. "
 "This is a fatal error and installation will be aborted."
-msgstr "Yükleme için grup '%s' gereklidir. Gerekli olan grup hali hazırda varolmamaktadır."
-"Yükleme iptal edilecek. "
+msgstr ""
+"Grup '%s' kurulum için gereklidir. Grup bulunamadı. "
+"Bu ölümcül bir hata ve kurulum iptal edilecek."
 
 #: pyanaconda/errors.py:202
 #, python-format
@@ -441,9 +467,10 @@ msgid ""
 "You have specified that the group '%s' should be installed.  This group does "
 "not exist.  Would you like to ignore this group and continue with "
 "installation?"
-msgstr "Belirttiğin grup '%s' yüklenmelidir."
-"Bu grup varolmamaktadır."
-"Bu grubu yoksayıp, yüklemeye devam etmek ister misiniz?"
+msgstr ""
+"'%s' grubu'nun kurulması gerektiğini belirttiniz. Grup bulunamadı.  "
+"Bu grubu yok yasayarak kuruluma devam etmek "
+"istermisiniz? "
 
 #: pyanaconda/errors.py:207
 #, python-format
@@ -452,6 +479,9 @@ msgid ""
 "installation.  This group does not exist.  Would you like to ignore this "
 "group and continue with installation?"
 msgstr ""
+"'%s' grubu'nun kurulumdan hariç tutulması gerektiğini belirttiniz. Bu grup "
+"bulunamadı. Bu grubu görmezden gelip kuruluma devam etmek "
+"istermisiniz?"
 
 #: pyanaconda/errors.py:219
 #, python-format
@@ -459,6 +489,8 @@ msgid ""
 "The package '%s' is required for this installation. This package does not "
 "exist. This is a fatal error and installation will be aborted."
 msgstr ""
+"'%s' paketi kurulum için gereklidir. Paket bulunamadı. Bu ölümcül "
+"bir hatadır bu sebeple kurulum iptal edilecek."
 
 #: pyanaconda/errors.py:226
 #, python-format
@@ -467,6 +499,9 @@ msgid ""
 "does not exist.  Would you like to ignore this package and continue with "
 "installation?"
 msgstr ""
+"'%s' paketi'nin kurulması gerektiğini belirttiniz. Paket bulunamadı. "
+"Bu paketi yok sayarak kuruluma devam etmek "
+"istermisiniz?"
 
 #: pyanaconda/errors.py:237
 #, python-format
@@ -477,14 +512,19 @@ msgid ""
 "\n"
 "%(details)s"
 msgstr ""
+"%(lineno)s satırında kickstart komut dosyasını çalıştırırken bir hata oluştu. "
+"Bu ölümcül bir hata olduğu için kurulum iptal edilecek. Hata'nın "
+"ayrıntıları:\n"
+"\n"
+"%(details)s"
 
 #: pyanaconda/errors.py:245
 msgid ""
 "The following error occurred while installing.  This is a fatal error and "
 "installation will be aborted."
 msgstr ""
-"Yükleme sırasında ekteki hata oluştu. Bu ölümcül bir hata olup yükleme "
-"işlemi sona erdirilecek."
+"Yükleme sırasında ekteki hata oluştu. Bu ölümcül bir hata olduğu için yükleme "
+"işlemi iptal edilecek."
 
 #: pyanaconda/errors.py:253
 msgid ""
@@ -492,6 +532,9 @@ msgid ""
 "caused by an error with\n"
 "your installation source."
 msgstr ""
+"Kurulum için aşağıda işaretlenmiş yazılım hataları var. "
+"Büyük olasılıkla yükleme kaynağınızdaki \n"
+"bir hatadan kaynaklanıyor."
 
 #: pyanaconda/errors.py:261
 msgid ""
@@ -499,6 +542,9 @@ msgid ""
 "will not be bootable. Would you like to ignore this and continue with "
 "installation?"
 msgstr ""
+"Boot yükleyicisi kurulurken aşağıdaki hatalar oluştu. "
+"Sistem önyüklenebilir olmayacak. Bu hatayı görmezden gelip kuruluma "
+"devam etmek istiyormusunuz?"
 
 #: pyanaconda/errors.py:273
 #, python-format
@@ -515,6 +561,12 @@ msgid ""
 "\n"
 "The installer will now terminate."
 msgstr ""
+"Boot yükleyicisi kurulamadığından kurulum durdu. "
+"Hata mesajı:\n"
+"\n"
+"%s\n"
+"\n"
+"Kurulumda çıkılıyor."
 
 #: pyanaconda/exception.py:106
 #, python-format
@@ -526,10 +578,16 @@ msgid ""
 "\n"
 " The installer will now terminate."
 msgstr ""
+"Donanımınızla ilgili bir hatadan dolayı kurulum durdu. "
+"Hata mesajı:\n"
+"\n"
+"%s.\n"
+"\n"
+" Kurulumda çıkılıyor."
 
 #: pyanaconda/exception.py:110
 msgid "Hardware error occurred"
-msgstr ""
+msgstr "Donanım hatası oluştu"
 
 #: pyanaconda/exception.py:167
 #, python-format
@@ -544,6 +602,15 @@ msgid ""
 "\n"
 "The installer will now terminate."
 msgstr ""
+"\n"
+"Etkileşimsiz cmdline modunda koşulan komutlarda hata olması nedeniyle "
+"kurulum durdu. Bu mod'da kuruluma devam edemezsiniz. Kickstart  "
+"dosyanızı düzenleyin ve kurulumu cmdline modunda tekrar başlatın.\n"
+"Hata mesajı: \n"
+"\n"
+"%s.\n"
+"\n"
+"Kurulumdan çıkılıyor."
 
 #: pyanaconda/exception.py:175
 #, python-format
@@ -556,6 +623,13 @@ msgid ""
 "\n"
 "The installer will now terminate."
 msgstr ""
+"\n"
+"Cmdline modunda çalışıyor. Etkileşimli hata ayıklama yapılmasına izin yok.\n"
+"Hata mesajı: \n"
+"\n"
+"%s.\n"
+"\n"
+"Kurulumdan çıkılıyor."
 
 #: pyanaconda/install.py:75
 msgid "Configuring installed system"
@@ -601,7 +675,7 @@ msgstr "Kurulum öncesi betikleri çalıştırılıyor"
 
 #: pyanaconda/install.py:207
 msgid "Discovering realm to join"
-msgstr "Katılanacak alan keşfediliyor"
+msgstr "Katılınacak alan keşfediliyor"
 
 #: pyanaconda/install.py:242
 msgid "Installing boot loader"
@@ -648,6 +722,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Karşıdan indirilirken aşağıdaki hata ile karşılaşıldı. "
+"Sertifika:\n"
+"\n"
+"%s"
 
 #: pyanaconda/kickstart.py:282
 #, python-format
@@ -657,26 +735,26 @@ msgstr "%s bulunamıyor. Yetkilendirme ayarlanamıyor."
 #: pyanaconda/kickstart.py:307
 #, python-format
 msgid "autopart fstype of %s is invalid."
-msgstr ""
+msgstr "otomatik bölümleme dosya sistemi tipi %s geçersiz."
 
 #: pyanaconda/kickstart.py:324
 #, python-format
 msgid "Settings default fstype to %s failed."
-msgstr ""
+msgstr "Varsayılan ayarlardaki dosya sistemi tipi %s geçersiz"
 
 #: pyanaconda/kickstart.py:355
 msgid "GRUB2 does not support installation to a partition."
-msgstr "GRUB2 bir bölüme yüklenmeyi desteklenmiyor."
+msgstr "GRUB2'nin bir bölüme yüklenmesi desteklenmiyor."
 
 #: pyanaconda/kickstart.py:415
 #, python-format
 msgid "More than one match found for given boot drive \"%s\"."
-msgstr ""
+msgstr "Belirli bir önyükleme sürücüsü için birden fazla eşleşme bulundu \"%s\"."
 
 #: pyanaconda/kickstart.py:418
 #, python-format
 msgid "Requested boot drive \"%s\" doesn't exist or cannot be used."
-msgstr ""
+msgstr "İstenen önyükleme bölümü \"%s\" mevcut değil."
 
 #: pyanaconda/kickstart.py:460
 #, python-format
@@ -1022,7 +1100,7 @@ msgstr "Hiç bir ağ cihazı uygun değil"
 #: pyanaconda/product.py:53
 #, python-format
 msgid "%(productName)s %(productVersion)s INSTALLATION"
-msgstr ""
+msgstr "%(productName)s %(productVersion)s KURULUMU"
 
 #: pyanaconda/product.py:57
 #, python-format
@@ -1514,7 +1592,7 @@ msgstr ""
 
 #: pyanaconda/ui/categories/localization.py:31
 msgid "LOCALIZATION"
-msgstr ""
+msgstr "YERELLEŞTİRME"
 
 #: pyanaconda/ui/categories/software.py:31
 msgid "SOFTWARE"
@@ -1523,7 +1601,7 @@ msgstr "YAZILIM"
 #: pyanaconda/ui/categories/system.py:32
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:469
 msgid "SYSTEM"
-msgstr ""
+msgstr "SİSTEM"
 
 #: pyanaconda/ui/categories/user_settings.py:32
 msgid "USER SETTINGS"
@@ -2346,13 +2424,13 @@ msgstr ""
 
 #: pyanaconda/ui/gui/__init__.py:447 widgets/src/BaseWindow.c:153
 msgid "Help!"
-msgstr ""
+msgstr "Yardım!"
 
 #: pyanaconda/ui/gui/__init__.py:893
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:59
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "Çık"
 
 #: pyanaconda/ui/gui/__init__.py:909
 msgctxt "GUI|Yes No Dialog"
@@ -2384,7 +2462,7 @@ msgstr ""
 #: pyanaconda/ui/gui/hubs/progress.py:222
 msgctxt "GUI|Progress"
 msgid "_Quit"
-msgstr ""
+msgstr "Çık"
 
 #: pyanaconda/ui/gui/hubs/progress.py:230
 #, python-format
@@ -2684,7 +2762,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/keyboard.py:276
 msgctxt "GUI|Spoke"
 msgid "_KEYBOARD"
-msgstr ""
+msgstr "KLAVYE"
 
 #: pyanaconda/ui/gui/spokes/keyboard.py:363
 msgid "Testing layouts configuration not available."
@@ -2932,7 +3010,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/software.py:587
 msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "Çık"
 
 #: pyanaconda/ui/gui/spokes/software.py:588
 msgctxt "GUI|Software Selection|Error Dialog"
@@ -3212,7 +3290,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/storage.py:1103
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Quit"
-msgstr ""
+msgstr "Çık"
 
 #: pyanaconda/ui/gui/spokes/storage.py:1083
 msgctxt "GUI|Storage|Error Dialog"
@@ -3267,7 +3345,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/welcome.py:262
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
-msgstr ""
+msgstr "%(name)s %(version)s'E HOŞGELDİNİZ"
 
 #: pyanaconda/ui/gui/spokes/advstorage/iscsi.py:283
 #, python-format
@@ -3561,12 +3639,12 @@ msgstr ""
 #: widgets/src/StandaloneWindow.c:54
 msgctxt "GUI|Standalone Navigation"
 msgid "_Quit"
-msgstr ""
+msgstr "Çık"
 
 #: widgets/src/StandaloneWindow.c:55
 msgctxt "GUI|Standalone Navigation"
 msgid "_Continue"
-msgstr ""
+msgstr "Devam Et"
 
 #: widgets/src/LayoutIndicator.c:35
 #, c-format
@@ -5365,35 +5443,37 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:132
 msgctxt "GUI|Advanced Storage|zFCP|Device Number"
 msgid "_Device number:"
-msgstr ""
+msgstr "Aygıt numarası:"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:159
 msgid "WWPN:"
-msgstr ""
+msgstr "WWPN:"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:177
 msgctxt "GUI|Advanced Storage|zFCP|Start Discovery"
 msgid "_Start Discovery"
-msgstr ""
+msgstr "Tanımlamayı Başlat"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:214
 msgid "Discovering zFCP devices.  This may take a moment..."
-msgstr ""
+msgstr "zFCP aygıtı tanımlanıyor. Bu biraz zaman alabilir..."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:268
 msgid ""
 "The following error occurred discovering zFCP devices.  Please double check "
 "your configuration information and try again."
 msgstr ""
+"Aşağıdaki hata zFCP aygıtnı tanımladıkdan sonra oluştu. Lütfen yapılandırma "
+"bilgilerini girin ve yeniden deneyin."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:291
 msgctxt "GUI|Advanced Storage|zFCP|Retry Discovery"
 msgid "_Retry Discovery"
-msgstr ""
+msgstr "Yeniden tanımla"
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:333
 msgid "LUN:"
-msgstr ""
+msgstr "LUN:"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:26
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:78
@@ -5428,7 +5508,7 @@ msgstr "Sil"
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:226
 msgid "Disk summary goes here"
-msgstr ""
+msgstr "Disk özeti burada"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:21
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
@@ -5438,74 +5518,78 @@ msgstr "İptal"
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:37
 msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "_Delete It"
-msgstr ""
+msgstr "Sil"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:129
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:144
 msgctxt "GUI|Custom Partitioning|Configure Dialog"
 msgid "_Select"
-msgstr ""
+msgstr "Seç"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:175
 msgid "CONFIGURE MOUNT POINT"
-msgstr ""
+msgstr "BAĞLAMA NOKTASI AYARLARI"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:191
 msgid "Select one or more disks this device may reside on."
-msgstr ""
+msgstr "Bu aygıtın bulunabileceği bir veya daha fazla disk seçin."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:321
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:336
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Add mount point"
-msgstr ""
+msgstr "Bağlama noktası ekle"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:370
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "_Desired Capacity:"
-msgstr ""
+msgstr "İstenen Kapasite:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:387
 msgctxt "GUI|Custom Partitioning|Add Dialog"
 msgid "Mount _Point:"
-msgstr ""
+msgstr "Bağlama Noktası"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:405
 msgid "ADD A NEW MOUNT POINT"
-msgstr ""
+msgstr "YENİ BAĞLAMA NOKTASI EKLE"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:423
 msgid ""
 "More customization options are available\n"
 "after creating the mount point below."
 msgstr ""
+"Daha fazla özelleştirme seçenekleri mevcut.\n"
+"Bölümü oluşturduktan sonra kullanabilirsiniz."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:458
 msgid ""
 "That mount point is already in\n"
 "use.  Try something else?"
 msgstr ""
+"Bu bağlama noktası zaten kullanılıyor. \n"
+"Başka birini deneyelim mi?"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:482
 msgid "eg: \"20 GB\", \"500mb\" (minus the quotation marks)"
-msgstr ""
+msgstr "örn: \"20 GB\", \"500mb\" (tırnak işaretleri olmadan)"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:539
 msgid "Single"
-msgstr ""
+msgstr "Tek"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:587
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:601
 msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -5514,34 +5598,35 @@ msgstr "Kaydet"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:633
 msgid "CONFIGURE CONTAINER"
-msgstr ""
+msgstr "YAPILANDIRMA AYARLARI"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:649
 msgid ""
 "Please create a name for this container and select at least one disk below."
 msgstr ""
+"Bu yapılandırma için bir ad oluşturun ve aşağıdan bir disk seçin."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:667
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "_Name:"
-msgstr ""
+msgstr "Ad"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:786
 msgid "RAID Level:"
-msgstr ""
+msgstr "RAID Seviyesi"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:815
 msgid "Encrypt"
-msgstr ""
+msgstr "Şifrele"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:856
 msgid "Please enter a valid name."
-msgstr ""
+msgstr "Lütfen geçerli bir isim girin."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:886
 msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "Si_ze policy:"
-msgstr ""
+msgstr "Boyut politikası:"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:901
 msgid "Automatic"
@@ -5549,7 +5634,7 @@ msgstr "Otomatik"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:902
 msgid "As large as possible"
-msgstr ""
+msgstr "Mümkün olduğunca büyük"
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:903
 msgid "Fixed"
@@ -5557,7 +5642,7 @@ msgstr "Sabit"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:8
 msgid "UNFORMATTED DASDS"
-msgstr ""
+msgstr "BİÇİMLENDİRİLMEMİŞ DASDS'LER"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:23
 msgctxt "GUI|DAD Format Dialog"
@@ -5575,35 +5660,42 @@ msgid ""
 "choose to format them now with dasdfmt or cancel to leave them unformatted. "
 "Unformatted DASDs cannot be used during installation."
 msgstr ""
+"Sisteminizde biçimlendirilmemiş DASD'ler tespit edildi. dasdfmt kullanarak "
+"şimdi biçimlendirebilir veya iptal'i seçerek biçimlendirilmemiş olarak "
+"bırakabilirsiniz. Biçimlendirilmeyen diskler, yükleme sırasında kullanılamaz."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:86
 msgid "Unformatted DASDs Detected"
-msgstr ""
+msgstr "Biçimlendirilmemiş DASD'ler algılandı "
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:136
 msgid ""
 "<b>Warning</b>: All storage changes made using the installer will be lost "
 "when you choose to format."
 msgstr ""
+"<b>Uyarı</b>: Eğer biçimlendir seçeneğini seçerseniz, "
+"yapılandırdığınız tüm depolama değişiklikleri kaybolacak."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:160
 msgctxt "GUI|DAD Format Dialog"
 msgid "_Format with dasdfmt"
-msgstr ""
+msgstr "dasdfmt kullanarak biçimlendir"
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:207
 msgid ""
 "You may <a href=\"\">go back to the main menu</a> to complete other\n"
 "installation options while formatting completes."
 msgstr ""
+"Biçimlendirme tamamlanırken diğer yükleme seçeneklerini tamamlamak\n"
+"için <a href=\"\">ana menü</a>'ye geri dönebilirsiniz."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:247
 msgid "Disk formatting complete."
-msgstr ""
+msgstr "Disk Biçimlendirme Tamamlandı."
 
 #: pyanaconda/ui/gui/spokes/lib/detailederror.glade:25
 msgid "An unknown error occurred during installation.  Details are below."
-msgstr ""
+msgstr "Kurulum sırasında bilinmeyen bir hata oluştu. Detaylar aşağıdaki gibidir."
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:23
 msgctxt "GUI|Passphrase Dialog"
@@ -5613,11 +5705,11 @@ msgstr "İptal"
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:38
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Save Passphrase"
-msgstr ""
+msgstr "Parolayı Kaydet"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:65
 msgid "DISK ENCRYPTION PASSPHRASE"
-msgstr ""
+msgstr "DİSK ŞİFRELEME PAROLASI"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:81
 msgid ""
@@ -5625,27 +5717,31 @@ msgid ""
 "passphrase that you will use to access your data when you start your "
 "computer."
 msgstr ""
+"Bazı verilerin şifrelenmesini seçtiniz. Bilgisayarınızı yeniden başlattığınızda "
+"verilerinize erişmek için kullanılacak bir parola oluşturmanız gerekli."
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:102
 msgctxt "GUI|Passphrase Dialog"
 msgid "_Passphrase:"
-msgstr ""
+msgstr "Parola"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:132
 msgctxt "GUI|Passphrase Dialog"
 msgid "Con_firm:"
-msgstr ""
+msgstr "Onayla"
 
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:273
 msgid ""
 "Warning: You won't be able to switch between keyboard layouts (from the "
 "default one) when you decrypt your disks after install."
 msgstr ""
+"Uyarı: Diskler şifrelendikten sonra klavye düzenleri arasında "
+"geçiş mümkün olmayacaktır."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:8
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:71
 msgid "RESCAN DISKS"
-msgstr "DİSKLERİ TEKRAR TARA"
+msgstr "DİSKLERİ YENİDEN TARA"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:25
 msgctxt "GUI|Refresh Dialog|Rescan"
@@ -5662,19 +5758,21 @@ msgid ""
 "You can remove or insert additional disks at this time and press 'Rescan "
 "Disks' below for the changes to take effect."
 msgstr ""
+"Bunu kaldırabilir veya şu anda başka diskler ekleyebilirsiniz. Değişikliklerin "
+"etkili olması için aşağıdaki  'Diskleri Yeniden Tara'  tuşuna basabilirsiniz."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:118
 msgid ""
 "<b>Warning:</b> All storage changes made using the installer will be lost "
 "when you press 'Rescan Disks'."
 msgstr ""
-"<b>Uyarı:</b> 'Diskleri Tekrar Tara' seçeneğine tıklarsanız yaptığınız"
-"tüm değişiklikler kaybolacak."
+"<b>Uyarı:</b> 'Diskleri Yeniden Tara' tuşuna bastığınızda yapılandırdığınız "
+"tüm depolama değişiklikleri kaybolacak."
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:143
 msgctxt "GUI|Refresh Dialog|Rescan"
 msgid "_Rescan Disks"
-msgstr "Diskleri Tekrar Tara"
+msgstr "Diskleri Yeniden Tara"
 
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:176
 #: pyanaconda/ui/gui/spokes/lib/refresh.glade:212
@@ -5725,7 +5823,7 @@ msgstr "Dosya Sistemi"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade:185
 msgid "Reclaimable Space"
-msgstr "Düzeltilebilir Alan"
+msgstr "Düzenlenebilir Alan"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.glade:196
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:144
@@ -5759,7 +5857,7 @@ msgstr "DEĞİŞİM ÖZETİ"
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:42
 msgctxt "GUI|Summary Dialog"
 msgid "_Cancel & Return to Custom Partitioning"
-msgstr "İptal et ve Özel Bölümlemeye Dön"
+msgstr "İptal Et ve Özel Bölümleme'ye Dön"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:57
 msgctxt "GUI|Summary Dialog"
@@ -5771,8 +5869,8 @@ msgid ""
 "Your customizations will result in the following changes taking effect after "
 "you return to the main menu and begin installation:"
 msgstr ""
-"Ana menüye döner veya kurulumu başlatırsanız,"
-"yapılandırmanız aşağıdaki değişikliklere neden olur:"
+"Ana menüye dönerseniz veya kurulumu başlatırsanız özelleştirmeler "
+"kabul edilir ve aşağıdaki değişikliklere neden olur:"
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:133
 msgid "Order"
@@ -5792,6 +5890,9 @@ msgid ""
 "randomly on keyboard and moving your mouse. The installation will continue "
 "automatically regardless of random data quality when time runs out."
 msgstr ""
+"Sistemin daha kaliteli işlem yapabilmesi için rastgele verilere ihtiyacı var, " 
+"Klavyede rastgele yazarak ve farenizi hareket ettirerek kaliteyi artırabilirsiniz. "
+"Otomatik olarak zaman biterse buna bakılmaksızın rasgele veri kalitesi devam ettirilecektir."
 
 #: pyanaconda/ui/gui/spokes/lib/entropy_dialog.glade:53
 msgid "Random data quality:"
@@ -5817,7 +5918,7 @@ msgid ""
 "Are you sure you wish to quit the\n"
 "installation process?"
 msgstr ""
-"Yükleme işleminden çıkmak istediğinize"
+"Kurulumdan çıkmak istediğinize"
 "eminmisiniz?"
 
 #: pyanaconda/ui/gui/main.glade:175
@@ -5880,33 +5981,28 @@ msgstr "Sabit Diske Kurulum Başlıyor"
 
 #: data/liveinst/gnome/fux-welcome.desktop.in.h:1
 #: data/liveinst/gnome/fux-welcome:65
-msgid "Welcome to Fux"
-msgstr "Hoşgeldiniz"
+msgid "Hoşgeldiniz"
+msgstr ""
 
 #: data/liveinst/gnome/fux-welcome:94
-msgid "Try Fux"
-msgstr "Fux'u Dene"
+msgid "Fux'u Dene"
+msgstr ""
 
 #: data/liveinst/gnome/fux-welcome:110
 msgid ""
-"You are currently running Fedora from live media.\n"
-"You can install Fedora now, or choose \"Install to Hard Drive\" in the "
-"Activities Overview at any later time."
-msgstr ""
-"Şu anda Fux'u canlı medya'dan çalıştırıyorsunuz.\n\n"
+"Şu anda Fux'u canlı medya'dan çalıştırıyorsunuz.\n\n" 
 "Fux'u şimdi veya herhangi bir zamanda \n\n"
 "\"Sabit Diske Kur\" \n\n"
 "Seçeneği ile yükleyebilirsiniz."
+msgstr ""
 
 #: data/liveinst/gnome/fux-welcome:128
 msgid ""
-"You can choose \"Install to Hard Drive\"\n"
-"in the Activities Overview at any later time."
-msgstr ""
 "Fux'u kullanırken; Etkinlikler menüsünde'ki \n"
 "\"Sabit Diske Kur\" \n"
 "Kısayolu ile istediğiniz an yükleyebilirsiniz."
+msgstr ""
 
 #: data/liveinst/gnome/fux-welcome:131
-msgid "Close"
-msgstr "Kapat"
+msgid "Kapat"
+msgstr ""
