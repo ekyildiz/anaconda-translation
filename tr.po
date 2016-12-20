@@ -15,6 +15,7 @@
 # Onur Gungor <onurgu@boun.edu.tr>, 2004, 2006
 # Akın Ömeroğlu <akinomeroglu@gmail.com>, 2015. #zanata
 # Berat Emre Nebioğlu <beratn@gmail.com>, 2016
+# Emre Kerim Yıldız <ekyildizz@gmail.com>, 2016
 
 msgid ""
 msgstr ""
@@ -22,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
 "POT-Creation-Date: 2016-06-13 16:12-0700\n"
 "PO-Revision-Date: 2015-06-07 05:27-0400\n"
-"Last-Translator: Berat Emre Nebioğlu <beratn@gmail.com>\n"
+"Last-Translator: Emre Kerim Yıldız <ekyildizz@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/anaconda/"
 "language/tr/)\n"
 "Language: tr\n"
@@ -1427,7 +1428,7 @@ msgstr[0] ""
 
 #: pyanaconda/vnc.py:189
 msgid "Attempting to start vncconfig"
-msgstr ""
+msgstr "vncconfig başlatmayı deniyor"
 
 #: pyanaconda/vnc.py:202
 #, python-format
@@ -1509,26 +1510,26 @@ msgstr ""
 
 #: pyanaconda/packaging/__init__.py:1179
 msgid "Failed to set up installation source"
-msgstr ""
+msgstr "Kurulum kaynağı oluşturulamadı"
 
 #: pyanaconda/packaging/__init__.py:1180
 msgid "Error downloading package metadata"
-msgstr ""
+msgstr "Paket bilgisi indirilirken hata oluştu"
 
 #: pyanaconda/packaging/__init__.py:1181
 msgid "No installation source available"
-msgstr ""
+msgstr "Kurulum kaynağı yok"
 
 #: pyanaconda/packaging/livepayload.py:106
 #: pyanaconda/packaging/livepayload.py:127
 msgid "Installing software"
-msgstr ""
+msgstr "Yüklendi"
 
 #: pyanaconda/packaging/livepayload.py:237
 #: pyanaconda/packaging/livepayload.py:246
 #, python-format
 msgid "Downloading %(url)s (%(pct)d%%)"
-msgstr ""
+msgstr "İndiriliyor %(url)s (%(pct)d%%)"
 
 #: pyanaconda/packaging/livepayload.py:390
 msgid "Checking image checksum"
